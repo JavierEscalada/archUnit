@@ -1,0 +1,14 @@
+@startuml
+
+[Adapter controllers] <<com.demo.adapters.rest..>>
+[Adapter persistence] <<com.demo.adapters.persistence..>>
+
+[Application] <<com.demo.application..>>
+[Domain] <<com.demo.domain..>>
+
+'dependencies
+[Application] --> [Domain]
+[Adapter persistence] --> [Application]
+[Adapter controllers] --> [Application]
+
+@enduml
