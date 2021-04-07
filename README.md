@@ -31,6 +31,4 @@ Las pruebas de ArchUnit se pueden encontrar en el paquete *architecture* en src/
 
 ## Autores ✒️
 
-* **Fabián Sanchez Ruiz**
 * **Fco.Javier Escalada Sarabia**
-* **Juan Antonio Breña Moral**
