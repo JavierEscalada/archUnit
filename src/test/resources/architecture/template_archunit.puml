@@ -1,10 +1,10 @@
 @startuml
 
-[Adapter controllers] <<com.demo.adapters.rest..>>
-[Adapter persistence] <<com.demo.adapters.persistence..>>
+[Adapter controllers] <<org.tms.adapters.rest..>>
+[Adapter persistence] <<org.tms.adapters.persistence..>>
 
-[Application] <<com.demo.application..>>
-[Domain] <<com.demo.domain..>>
+[Application] <<org.tms.application..>>
+[Domain] <<org.tms.domain..>>
 
 'dependencies
 [Application] --> [Domain]
