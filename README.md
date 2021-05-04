@@ -10,7 +10,7 @@ Ejemplo de proyecto de gestión de coches para su venta bajo arquitectura Onion 
 
 ## Arquitectura
 
-![PlantUML Componentes](../docs/template_archunit.png)
+![PlantUML Componentes](./docs/template_archunit.png)
 
 La aplicación consta de tres capas, a saber:
 * *Domain* (dominio): Sería la más interna, donde figura la entidad inmutable de dominio *Car* (coche)
